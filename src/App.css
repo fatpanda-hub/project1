@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: antiquewhite;
+}
+
+.App .main{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+.AppBar{
+  position: fixed !important;
+  cursor: default;
+}
+* {
+  user-select: none;
+}
+
+*::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+	background-color: #E3F2FD;
+}
+* ::-webkit-scrollbar
+{
+  width: 5px;
+  background-color: #E3F2FD;
+}
+*::-webkit-scrollbar-thumb
+{
+  background-color:#64B5f6;
+  border-radius: 3px;
+  margin-right: 3px;
+}
